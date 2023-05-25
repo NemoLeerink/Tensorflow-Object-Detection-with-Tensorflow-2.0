@@ -31,12 +31,16 @@ Make sure to edit this method to match the labels you made with labelImg!
 *************************************************************************
 '''
 def class_text_to_int(row_label):
-    if row_label == 'blue_brick':
+    if row_label == 'man':
         return 1
-    elif row_label == 'red_brick':
+    elif row_label == 'woman':
         return 2
-    elif row_label == 'green_brick':
+    elif row_label == 'button':
         return 3
+    elif row_label == 'cover':
+        return 4
+    elif row_label == 'preview':
+        return 5
     else:
         return None
 

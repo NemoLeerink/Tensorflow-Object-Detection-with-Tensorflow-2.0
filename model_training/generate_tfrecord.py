@@ -32,15 +32,15 @@ Make sure to edit this method to match the labels you made with labelImg!
 '''
 def class_text_to_int(row_label):
     if row_label == 'Man':
-        return 0
-    elif row_label == 'Woman':
         return 1
-    elif row_label == 'Button':
+    elif row_label == 'Woman':
         return 2
-    elif row_label == 'Cover':
+    elif row_label == 'Button':
         return 3
-    elif row_label == 'Preview':
+    elif row_label == 'Cover':
         return 4
+    elif row_label == 'Preview':
+        return 5
     else:
         return None
 
